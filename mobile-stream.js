@@ -245,9 +245,9 @@
       bottomCta.className = 'mobile-bottom-cta';
       bottomCta.setAttribute('aria-label', '상담 바로가기');
       bottomCta.innerHTML = `
-        <a href="tel:01032754143" class="cta-call">
+        <a href="tel:01085717775" class="cta-call">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.6 9 3l2 4.4-2 1.6a14.7 14.7 0 0 0 6 6l1.6-2 4.4 2-.6 2.4a2.5 2.5 0 0 1-2.7 1.9C10.6 18.5 5.5 13.4 4.7 6.3a2.5 2.5 0 0 1 1.9-2.7Z"/></svg>
-          <span>전화상담 010-3275-4143</span>
+          <span>전화상담 010-8571-7775</span>
         </a>
         <button type="button" class="cta-consult" data-action="consult">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v11H11l-4.5 3v-3H4z"/><path d="M8 9.5h8M8 13h5"/></svg>
@@ -363,7 +363,7 @@
               status.textContent = '신청이 접수되었습니다. 담당자의 연락을 기다려 주세요.';
               form.reset();
             } catch {
-              status.textContent = '전송을 확인하지 못했습니다. 전화 010-3275-4143로 접수 여부를 확인해 주세요.';
+              status.textContent = '전송을 확인하지 못했습니다. 전화 010-8571-7775로 접수 여부를 확인해 주세요.';
             } finally {
               button.disabled = false;
             }
