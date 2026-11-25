@@ -353,7 +353,7 @@
             button.disabled = true;
             status.textContent = '신청 내용을 전송하고 있습니다.';
             try {
-              const r = await fetch('https://formsubmit.co/ajax/sims6908@naver.com', {
+              const r = await fetch('https://formsubmit.co/ajax/ywp777@naver.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
                 body: JSON.stringify(payload)
